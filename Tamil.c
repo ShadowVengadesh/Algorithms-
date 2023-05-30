@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include<conio.h>
 
 void insertionSort(int arr[], int n) {
-
-    for (int i = 1; i < n; i++) {
+int i;
+    for ( i = 1; i < n; i++) {
 
         int key = arr[i];
 
@@ -23,7 +24,7 @@ void insertionSort(int arr[], int n) {
 }
 
 int main() {
-
+int i;
     int arr[] = {12, 45, 78, 96, 56, 77, 51, 8, 104, 96};
 
     int n = sizeof(arr) / sizeof(arr[0]);
@@ -32,7 +33,7 @@ int main() {
 
     printf("Array: ");
 
-    for (int i = 0; i < n; i++) {
+    for ( i = 0; i < n; i++) {
 
         printf("%d ", arr[i]);
 
@@ -46,14 +47,14 @@ int main() {
 
     printf("Sorted Array: ");
 
-    for (int i = 0; i < n; i++) {
+    for ( i = 0; i < n; i++) {
 
         printf("%d ", arr[i]);
 
     }
 
     printf("\n");
-
+    getch();
     return 0;
 
 }
