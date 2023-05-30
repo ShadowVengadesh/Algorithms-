@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 
 // Structure to store the minimum and maximum numbers
 
@@ -99,7 +100,7 @@ int main() {
     printf("Minimum number: %d\n", result.min);
 
     printf("Maximum number: %d\n", result.max);
-
+    getch();
     return 0;
 
 }
