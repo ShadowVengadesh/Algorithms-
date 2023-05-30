@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 
 // Function to compute the transitive closure of a graph using Warshall's algorithm
 
@@ -75,7 +76,7 @@ int main() {
     }
 
     transitiveClosure(graph, n);
-
+    getch();
     return 0;
 
 }
